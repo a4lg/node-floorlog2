@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// Copyright (C) 2021 Tsukasa OI <floss@irq.a4lg.com>. All Rights Reserved.
+// Copyright (C) 2021 Tsukasa OI <floss_js@irq.a4lg.com>. All Rights Reserved.
 
 /*
     1. Exact arithmetic of 2**n             (where n is an integer)
