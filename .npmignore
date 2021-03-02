@@ -1,0 +1,12 @@
+*.tgz
+
+/src/
+/tests/
+/tsconfig.json
+/tsconfig.*.json
+/.eslintrc.cjs
+/babel.*.json
+/jest.config.js
+
+/coverage/
+/docs/

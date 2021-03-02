@@ -1,0 +1,15 @@
+.*
+!.git?*
+!/.eslintrc.cjs
+!/.npmignore
+
+*~
+*.tgz
+
+/node_modules/
+/lib/
+/lib.cjs/
+/coverage/
+/docs/
+
+/yarn-error.log

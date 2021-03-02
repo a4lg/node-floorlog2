@@ -1,0 +1,20 @@
+{
+    "presets": [
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-transform-modules-commonjs",
+            {
+            }
+        ],
+        [
+            "transform-require-extensions",
+            {
+                "extensions": {
+                    ".js": ".cjs"
+                }
+            }
+        ]
+    ]
+}
