@@ -35,6 +35,16 @@
         "lib",
         "lib.cjs"
     ],
+    "keywords": [
+        "number",
+        "numeric",
+        "math",
+        "IEEE 754",
+        "log2",
+        "log",
+        "logarithm",
+        "base 2"
+    ],
     "license": "MIT",
     "devDependencies": {
         "@babel/cli": "^7.12.10",
