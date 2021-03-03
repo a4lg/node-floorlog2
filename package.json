@@ -14,7 +14,7 @@
         "test": "yarn build:esm && yarn test:only",
         "test:only": "jest",
         "docs": "typedoc --out docs src/index.ts",
-        "mrproper": "rm -rf coverage lib lib.cjs docs",
+        "mrproper": "rm -rf coverage lib lib.cjs docs yarn-error.log; true",
         "prepack": "yarn mrproper; yarn build",
         "prepublishOnly": "( test -f lib/index.js || yarn build:esm ) && yarn lint && yarn test:only"
     },
