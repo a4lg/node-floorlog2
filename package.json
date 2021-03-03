@@ -2,9 +2,18 @@
     "name": "floorlog2",
     "description": "Exact arithmetic of binary logarithm with floor",
     "version": "1.0.2",
+    "license": "MIT",
     "author": {
         "name": "Tsukasa OI",
         "email": "floss_js@irq.a4lg.com"
+    },
+    "homepage": "https://github.com/a4lg/node-floorlog2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/a4lg/node-floorlog2.git"
+    },
+    "issues": {
+        "url": "https://github.com/a4lg/node-floorlog2/issues"
     },
     "scripts": {
         "build": "yarn build:esm && yarn build:cjs",
@@ -45,7 +54,6 @@
         "logarithm",
         "base 2"
     ],
-    "license": "MIT",
     "devDependencies": {
         "@babel/cli": "^7.12.10",
         "@babel/core": "^7.12.10",
