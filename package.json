@@ -1,7 +1,7 @@
 {
     "name": "floorlog2",
     "description": "Exact arithmetic of binary logarithm with floor",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "license": "MIT",
     "author": {
         "name": "Tsukasa OI",
