@@ -35,6 +35,6 @@ module.exports = {
         'eqeqeq':             'error',
         'default-case-last':  'error',
         'radix':              'error',
-        'import/extensions': ['error', 'ignorePackages'],
+        'import/extensions': ['error', 'never', { 'test': 'always' }],
     },
 };

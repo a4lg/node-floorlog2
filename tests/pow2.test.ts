@@ -3,7 +3,7 @@
 
 import {
     pow2I
-} from '../lib/index.js';
+} from '../src/index';
 
 
 describe('Module (portion): floorlog2 (pow2)', () =>

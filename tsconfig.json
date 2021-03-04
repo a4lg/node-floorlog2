@@ -12,7 +12,8 @@
         "declaration": true,
         "rootDir": "src/",
         "outDir": "lib/",
-        "newLine": "LF"
+        "newLine": "LF",
+        "emitDeclarationOnly": true
     },
     "include": [
         "src/**/*.ts"

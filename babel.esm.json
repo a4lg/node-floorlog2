@@ -7,13 +7,8 @@
             "replace-import-extension",
             {
                 "extMapping": {
-                    "": ".cjs"
+                    "": ".js"
                 }
-            }
-        ],
-        [
-            "@babel/plugin-transform-modules-commonjs",
-            {
             }
         ]
     ]

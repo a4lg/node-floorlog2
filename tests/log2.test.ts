@@ -7,7 +7,7 @@ import {
     floorLog2_PFinite_portable,
     floorLog2_PFinite_dataview,
     pow2I
-} from '../lib/index.js';
+} from '../src/index';
 
 // Note: this test assumes that `DataView` is supported (Node 0.10.0 or later)
 const FUNCTIONS: Array<(x: number) => number> = [

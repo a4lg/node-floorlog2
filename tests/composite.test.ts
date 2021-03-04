@@ -5,7 +5,7 @@ import {
     pow2I,
     floorLog2,
     floorLog2_PFinite
-} from '../lib/index.js';
+} from '../src/index';
 
 
 describe('Module (portion): floorlog2 (composite)', () =>
