@@ -7,7 +7,23 @@ exponent value of a number x), we should handle `floor(log2(x))` precisely.
 This library defines `floorLog2` function which calculates exact value of
 `floor(log2(x))` for number `x`.  Note that precision of `Math.pow` and
 `Math.log2` as defined in ECMA-262 is implementation-defined and
-that's exactly why this library is here.
+`Math.floor` is not effective if a result of `Math.log2` is already
+rounded up.
+
+In fact, simple `so_called_floorlog2` function fails on many JavaScript
+environments.  Try following example:
+
+```js
+function so_called_floorlog2(x)
+{
+    return Math.floor(Math.log2(x));
+}
+
+// 52 is expected but 53 is returned on many environments
+console.log(so_called_floorlog2(2**53-1));
+```
+
+That's exactly why this library is here.
 
 This library also defines `pow2I` which calculates exact value of
 `2**x` for integer `x`.
